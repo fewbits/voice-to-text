@@ -1,3 +1,4 @@
-*.mp3
-*.ogg
+audio-chunks/*
 *.wav
+*.ogg
+*.mp3
