@@ -48,7 +48,7 @@ def get_help():
   print(f"{log.bold}V2T{log.reset}")
   print()
   print(f"{log.bold}{log.green}Usage:{log.reset}")
-  print(f"  v2t.py {log.bold}{log.cyan}--file{log.reset} {log.underline}FILE_PATH{log.reset} {log.bold}{log.cyan}--language{log.reset} {log.underline}LANGUAGE{log.reset}")
+  print(f"  v2t.py {log.bold}{log.cyan}--file{log.reset} {log.underline}FILE.wav{log.reset} {log.bold}{log.cyan}--language{log.reset} {log.underline}LANGUAGE{log.reset}")
   print()
   
   exit(0)
