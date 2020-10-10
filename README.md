@@ -2,13 +2,17 @@
 
 > `v2t.py`
 
-## Installing
+## Install
 
-Clonning the repository:
+Clone the repository:
 
 `git clone git@github.com:fewbits/voice-to-text.git`
 
-Installing Python dependencies:
+Access the project:
+
+`cd voice-to-text`
+
+Install Python dependencies:
 
 `pip install -r requirements.txt`
 
