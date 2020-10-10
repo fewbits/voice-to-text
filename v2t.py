@@ -26,17 +26,17 @@ class log:
   magenta   = '\033[95m'
   cyan      = '\033[96m'
 
-  def debug(self, string):
+  def debug(string):
     print(f"\033[2m[debug]\033[0m {string}")
 
-  def error(self, string, exit_code=1):
+  def error(string, exit_code=1):
     print(f"\033[2m[\033[0m\033[91merror\033[0m\033[2m]\033[0m {string}")
     exit(exit_code)
 
-  def info(self, string):
+  def info(string):
     print(f"\033[2m[\033[0m\033[92minfo \033[0m\033[2m]\033[0m {string}")
 
-  def warn(self, string):
+  def warn(string):
     print(f"\033[2m[\033[0m\033[93mwarn \033[0m\033[2m]\033[0m {string}")
 
 #############
