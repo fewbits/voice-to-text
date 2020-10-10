@@ -16,11 +16,11 @@ Installing Python dependencies:
 
 Call the script passing the required arguments:
 
-`v2t.py --file FILE.wav --language LANGUAGE`
+`./v2t.py --file FILE.wav --language LANGUAGE`
 
 Example:
 
-`v2t.py --file audio.wav --language pt-BR`
+`./v2t.py --file audio.wav --language pt-BR`
 
 ## That's All
 
